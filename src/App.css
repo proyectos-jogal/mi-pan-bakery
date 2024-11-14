@@ -1,0 +1,61 @@
+.navbar img {
+  width: 3em !important;
+  height: 3em !important;
+  margin: 0 1em 0 1.5em;
+  border-radius: 0.5em;
+  box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* src/App.css */
+
+/* Estilos generales para el contenedor del pie de página */
+.footer-container {
+  background-color: #343a40; /* Fondo oscuro */
+  color: white; /* Texto blanco */
+  padding: 30px 0; /* Espaciado interno */
+}
+
+/* Estilos para la fila dentro del pie de página */
+.footer-row {
+  display: flex;
+  justify-content: space-between; /* Espacio uniforme entre columnas */
+}
+
+/* Estilos para cada columna dentro del pie de página */
+.footer-col {
+  flex: 1; /* Hacer que todas las columnas ocupen igual espacio */
+  text-align: center; /* Centrar el texto */
+}
+
+/* Estilos para los títulos dentro del pie de página */
+.footer-title {
+  margin-bottom: 10px; /* Margen debajo del título */
+}
+
+/* Estilos para el iframe de Google Maps */
+.footer-map iframe {
+  width: 100%;
+  border-radius: 5px; /* Redondear las esquinas del mapa */
+}
+
+/* Estilos para la lista de redes sociales */
+.footer-socials ul {
+  display: flex;
+  list-style-type: none; /* Eliminar marcadores de lista */
+  padding: 0;
+}
+
+.footer-socials li {
+  margin: 5px; /* Espacio entre ítems de la lista */
+  display: inline-block;
+}
+
+.footer-socials i {
+  color: white;
+  font-size: 24px;
+}
+
+.footer-socials i:hover {
+  color: rgb(190, 186, 186);
+  font-size: 24px;
+}
